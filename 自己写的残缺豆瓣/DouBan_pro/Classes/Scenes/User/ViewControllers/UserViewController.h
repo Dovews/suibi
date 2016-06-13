@@ -1,0 +1,17 @@
+//
+//  UserViewController.h
+//  DouBan_pro
+//
+//  Created by ws on 16/6/1.
+//  Copyright © 2016年 ws. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "UserHeaderView.h"
+
+@interface UserViewController : UIViewController
+
+@property(nonatomic,strong)UITableView * userListTableV;
+@property(nonatomic,strong)UserHeaderView * userHeaderV;
+
+@end
